@@ -1,0 +1,29 @@
+.flex-row{
+    border-width: 2px;
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: space-evenly;
+}
+
+.flex-col{
+    
+    border-width: 5px;
+    border-radius: 2px;
+    background-color: azure;
+    width:30%;
+    padding: 5%;
+    margin:5%
+
+}
+
+.header{
+    background-color: firebrick;
+}
+.mainbody{
+    background-color: floralwhite;
+}
+
+.footer{
+    background-color: antiquewhite;
+    font-size: large;
+}
