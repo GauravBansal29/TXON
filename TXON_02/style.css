@@ -1,0 +1,93 @@
+/* Created By: Gaurav Bansal */
+section {
+  font-size: 30px;
+  text-align: center;
+}
+#container {
+  height: fit-content;
+  width: 40vw;
+  /* border: 2px solid black; */
+  margin: auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+}
+
+#display {
+  width: 100%;
+  height: 20vh;
+  flex-grow: 4;
+  border-bottom: 2px solid black;
+  text-align: end;
+  box-sizing: border-box;
+  background-color: whitesmoke;
+  border: 1px white solid;
+  border-radius: 5px;
+  margin: 5px;
+  font-size: 50px;
+  overflow: hidden;
+}
+
+#numsym {
+  flex-grow: 3;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  height: 100%;
+}
+#operators {
+  flex-grow: 1;
+  display: flex;
+  flex-flow: column wrap;
+  height: 100%;
+  box-sizing: border-box;
+}
+#operators section {
+  flex-grow: 1;
+}
+#operators section:hover {
+  background-color: rgb(80, 4, 4);
+  box-shadow: 4px 4px 4px whitesmoke;
+}
+#symbols {
+  flex-grow: 1;
+  display: flex;
+  flex-flow: row wrap;
+  /* justify-content: space-around; */
+}
+#symbols section {
+  flex-grow: 1;
+  width: 30%;
+  text-align: center;
+  box-sizing: border-box;
+}
+#numbers {
+  flex-grow: 3;
+  display: flex;
+  flex-flow: row wrap;
+  box-sizing: border-box;
+}
+#numbers section {
+  flex-grow: 1;
+  width: 30%;
+  box-sizing: border-box;
+}
+
+.btn {
+  margin: 1px;
+  border-radius: 5px;
+  border: 1px solid white;
+  /* box-shadow: 10px 10px 2px whitesmoke; */
+  background-color: whitesmoke;
+}
+.btn:hover {
+  background-color: rgb(241, 239, 239);
+  box-shadow: 4px 4px 4px whitesmoke;
+}
+#operators section {
+  border: 1px solid whitesmoke;
+  /* /box-shadow: 10px 10px 2px whitesmoke; */
+  background-color: rgb(92, 0, 0);
+  color: whitesmoke;
+}
